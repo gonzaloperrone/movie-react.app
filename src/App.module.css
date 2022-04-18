@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.title{
+    color: rgb(56, 119, 255);
+    cursor: pointer;
+    font-size: 3.5rem; 
+    font-family: 'Staatliches', cursive;
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(0, 24, 77), 0 0 30px #0d46ff, 0 0 10px #5fbfff,
+    0 0 20px #0841ff, 0 0 40px #2e89ff, 0 0 20px #3283fc;
+    margin: auto;
+}
+
+.header {}
+
+.title:hover,
+.subTitle:hover{
+    color: rgb(46, 170, 253);
+}
+
+.subTitle:hover{
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+    background-color: #0841ff;
+}
+
+.subTitle{
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(56, 119, 255);
+    cursor: pointer;
+    font-size: 1.7rem; 
+    font-family: 'Staatliches', cursive;
+    vertical-align: middle;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+@media(max-width: 980px){
+    .title{
+        font-size: 2.2rem;
+    }
+
+    .br{
+        float: left;
+    }
+}

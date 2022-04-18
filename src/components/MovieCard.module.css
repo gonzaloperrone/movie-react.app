@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.movieCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+    border-radius:10px;
+    height:auto;
+    box-shadow: 0 0 8px rgb(90, 90, 90);
+    width:100%;
+}
+
+.movieCard:hover{
+    transform: scale(1.02)
+}
+
+.movieImg {
+    border-radius:10px;
+    background-color: rgb(182, 220, 220);
+}
+
+.movieInfo{
+    padding: 10px;
+    margin: 5px;
+}
+
+.movieDate {
+    margin-top:10px;
+    font-size:15px;
+    color: grey;
+}
+
+@media (max-width: 560px) {
+    .movieImg {
+       width:90%;
+       height:auto;
+       padding: 20px 40px;
+       background-color: black;
+    }
+}

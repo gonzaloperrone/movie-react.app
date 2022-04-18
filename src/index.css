@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: rgb(56, 119, 255);
+  border-radius: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.gridTitle {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  cursor: default;
+  color: rgb(56, 119, 255);
+  cursor: pointer;
+  font-size: 3.5rem;
+  font-family: 'Staatliches', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
