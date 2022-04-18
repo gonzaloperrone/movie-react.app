@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { getImages } from '../utils/getImages';
 import { Link } from 'react-router-dom';
 import './PopularTv.css';
-
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export function PopularTv() {
