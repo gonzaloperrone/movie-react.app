@@ -107,6 +107,7 @@ strong {
     background-color: rgb(56, 115, 245);
     border: none;
     padding: 1px 8px;
+    color: black !important;
 }
 
 .backBtn1 {
@@ -116,6 +117,7 @@ strong {
     padding: 1px 8px;
     position: absolute;
     margin: 6px;
+    color: black !important;
 }
 
 @media (min-width: 980px) {
