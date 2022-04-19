@@ -46,7 +46,7 @@ export function PopularMovies() {
                         {movie.map((movieInfo) => (
                             <SwiperSlide key={movieInfo.id}>
                                 <Link to={"/movies/" + movieInfo.id}>
-                                    <img title={movieInfo.originalTitle} src={`${getImages(movieInfo.poster_path, 500)}`} alt={movieInfo.id} />
+                                    <img title={movieInfo.originalTitle} src={`${getImages(movieInfo.poster_path, 500)}`} alt={movieInfo.originalTitle} />
                                 </Link>
                             </SwiperSlide>
                         ))}
