@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { HashRouter as Router, Routes, Route, Link, Navigate } from "react-router-dom";
+import { Routes, Route, Link, Navigate, HashRouter } from "react-router-dom";
 import { Movies } from './pages/Movies';
 import { Tv } from './pages/TV';
 import { MovieDetails } from "./pages/MovieDetails";
@@ -13,7 +13,7 @@ import { FiMonitor } from 'react-icons/fi';
 
 export function App() {
   return (
-    <Router>
+    <HashRouter>
       <header>
         <Navbar bg="dark" className={styles.header} expand="lg">
           <Container>
@@ -42,6 +42,6 @@ export function App() {
       <footer>
         
       </footer>
-    </Router>
+    </HashRouter>
   );
 }
